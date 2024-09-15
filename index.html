@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/server">
+
+        <h1>Welcome Back!</h1>
+
+        <div id="imp">
+            <input type="text" id="user" name="user" class="impp" placeholder="enter phone number or email">
+            <input type="password" id="pass" name="pass" class="impp" placeholder="enter password">
+        </div>
+
+        <div id="check">
+            <div>
+                <input type="checkbox" id="rem" name="rem">
+                <label for="rem">Remember Me</label>
+            </div>
+            <div><a id="reset" href="/server">reset password</a></div>
+             
+        </div>
+        <div id="flex"><button id="sign" type="submit">Sign in</button></div>
+
+        <p>don&#39;t have an account? <a id="S" href="/server">Sign up</a></p>
+        <div id="or">or</div>
+        <div id="icons">
+            <div id="google" >
+                <button id="goo" class="signn"><a href="#"><img src="google.png" id="one"></a>Continue with google</button>
+            </div>
+            <div id="fb">
+                <button id="facebook" class="signn"><a href="#"><img src="facebook.png" id="two"></a>Continue with Facebook</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
